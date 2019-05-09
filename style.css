@@ -1,0 +1,188 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #f7f7f7;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0 50px;
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main div#main {
+    margin-left: 160px;
+    background: #fff;
+    padding: 0 150px;
+    display: inline-block;
+}
+
+div#main div#image {
+    margin-bottom: 20px;
+    display: inline-block;
+    border-right: 7px solid #cccccc;
+    border-left: 7px solid #cccccc;
+}
+
+div#main div img {
+    height: 400px;
+}
+
+div#rate {
+    margin-left: 15px;
+    position: absolute;
+    display: inline-block;
+    border-bottom: 2px solid #cccccc;
+    width: 210px;
+}
+
+div#rate #book {
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    ;
+}
+
+div#rate #admin {
+    color: #000;
+    margin-top: 10px;
+}
+
+.sameer {
+    color: #f7b733;
+    margin: 20px 0;
+}
+
+div#price-1 {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 120px;
+    margin-left: 15px;
+    width: 210px;
+}
+
+div#price-1 #discount {
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+    margin-top: 10px;
+    ;
+}
+
+div#price-1 #price {
+    color: #b6341a;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+button {
+    color: #fff;
+    background-color: #f2849f;
+    font-size: 15px;
+    font-weight: bold;
+    border: transparent;
+    padding: 10px 40px;
+    margin: 15px 0px;
+}
+
+button:hover {
+    background-color: #ed4b74;
+    cursor: pointer;
+}
+
+#details {
+    color: #494949;
+    padding: 40px 0;
+    font-size: 15px;
+    border-bottom: 2px solid #cccccc;
+}
+
+#list {
+    color: #494949;
+    padding: 40px 0;
+    font-size: 15px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.head {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* extra */
+
+.maaz {
+    margin: 0px 10px;
+}
+
+#over {
+    width: 700px;
+    border-bottom: 2px solid #cccccc;
+}
+
+#margine {
+    display: inline-block;
+    width: 210px;
+}
+
+
+/* extra */
